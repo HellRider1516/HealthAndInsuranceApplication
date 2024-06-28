@@ -1,0 +1,16 @@
+package in.mahesh.Service;
+
+import org.springframework.stereotype.Service;
+
+import in.mahesh.Binding.SSNRequest;
+import in.mahesh.Binding.SSNResponse;
+@Service
+public class SSNWebServiceImp implements SSAWebService {
+
+	@Override
+	public SSNResponse getCitizenInfo(SSNRequest request) {
+		String ssn = request.getSsn();
+		return null;
+	}
+
+}

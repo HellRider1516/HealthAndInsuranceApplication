@@ -1,0 +1,5 @@
+package in.mahesh.Binding;
+
+public class SSNRequest {
+
+}

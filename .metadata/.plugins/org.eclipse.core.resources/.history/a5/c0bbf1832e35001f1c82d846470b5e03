@@ -1,0 +1,14 @@
+package in.mahesh.Service;
+
+import in.mahesh.Binding.SSNRequest;
+import in.mahesh.Binding.SSNResponse;
+
+public class SSNWebServiceImp implements SSAWebService {
+
+	@Override
+	public SSNResponse getCitizenInfo(SSNRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
